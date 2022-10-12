@@ -1,0 +1,183 @@
+﻿Imports EN_ALVINET_CONTA
+Imports LN_ALVINET_CONTA
+Imports EN_ALVINET_CONTA.OPERACION
+
+Partial Class CONTROLES_REGISTRO_ctlOperacionContable_Registro
+    Inherits System.Web.UI.UserControl
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not IsPostBack Then
+            BindOperacion()
+        End If
+    End Sub
+
+    Private Sub BindOperacion()
+        Dim objOperacion As New LN_ALVINET_CONTA.CONFIG.LN_Operacion
+        objOperacion.entOperacion.IdContabilidad = Session("Contabilidad")
+        objOperacion.entOperacion.Idempresa = Session("Empresa")
+
+        objOperacion.Listar()
+
+        lstOperacion.DataSource = objOperacion.lstOperacion
+        lstOperacion.DataTextField = "Operacion"
+        lstOperacion.DataValueField = "IdOperacion"
+        lstOperacion.DataBind()
+    End Sub
+    Private Sub BindSubOperacion(ByVal strIdOperacion As String)
+        Dim objSubOperacion As New LN_ALVINET_CONTA.LN_SubOperacion
+        Dim entSubOperacion As New EN_ALVINET_CONTA.EN_SubOperacion
+
+        entSubOperacion.IdContabilidad = Session("Contabilidad")
+        entSubOperacion.Idempresa = Session("Empresa")
+        entSubOperacion.IdOperacion = strIdOperacion
+
+        objSubOperacion.entSubOperacion = entSubOperacion
+
+        objSubOperacion.Listar()
+
+        lstSubOperacion.DataSource = objSubOperacion.lstSubOperacion
+        lstSubOperacion.DataTextField = "SubOperacion"
+        lstSubOperacion.DataValueField = "IdSubOperacion"
+        lstSubOperacion.DataBind()
+    End Sub
+
+    Protected Sub lstOperacion_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles lstOperacion.SelectedIndexChanged
+        BindSubOperacion(lstOperacion.SelectedValue)
+    End Sub
+
+    Private Sub CargarOperacion()
+        Dim objCuentas As New LN_ALVINET_CONTA.CONFIG.LN_OperacionCuenta
+        Dim entOperacionCuenta As New EN_ALVINET_CONTA.OPERACION.EN_OperacionCuenta
+
+        entOperacionCuenta.Idcontabilidad = Session("Contabilidad")
+        entOperacionCuenta.IdEjercicio = Session("EjercicioEmpresa")
+        entOperacionCuenta.IdEmpresa = Session("Empresa")
+        entOperacionCuenta.IdOperacion = lstOperacion.SelectedValue
+        entOperacionCuenta.IdSubOperacion = lstSubOperacion.SelectedValue
+
+        objCuentas.entOperacionCuenta = entOperacionCuenta
+        objCuentas.Listar()
+
+        Dim lstCuentas As New List(Of EN_ALVINET_CONTA.OPERACION.EN_OperacionCuenta)
+        Dim entCuenta As New EN_ALVINET_CONTA.OPERACION.EN_OperacionCuenta
+        'lstCuentas.Clear()
+
+        For Each entItem As EN_ALVINET_CONTA.CONFIG.EN_OperacionesCuenta In objCuentas.lstOperacionCuenta
+            entCuenta = New EN_ALVINET_CONTA.OPERACION.EN_OperacionCuenta
+            entCuenta.EsAbono = entItem.EsAbono
+            entCuenta.EsCargo = entItem.EsCargo
+            entCuenta.Observacion = entItem.Observacion
+            entCuenta.EsObligatorio = entItem.EsObligatorio
+            entCuenta.Glosa = ""
+            entCuenta.IdCuentaContable = entItem.IdCuentaContable
+            entCuenta.IdOperacionCuenta = entCuenta.IdOperacionCuenta
+            entCuenta.Importe = 0
+            lstCuentas.Add(entCuenta)
+        Next
+
+        grdDatos.DataSource = lstCuentas
+        grdDatos.DataBind()
+
+    End Sub
+
+    Protected Sub lstSubOperacion_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles lstSubOperacion.SelectedIndexChanged
+        CargarOperacion()
+    End Sub
+
+    Protected Sub grdDatos_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles grdDatos.RowDataBound
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            If e.Row.Cells(5).Text = "S" Then
+                CType(e.Row.FindControl("lblTipo"), Label).Text = "Cargo"
+            End If
+            If e.Row.Cells(6).Text = "S" Then
+                CType(e.Row.FindControl("lblTipo"), Label).Text = "Abono"
+            End If
+            If e.Row.Cells(7).Text = "S" Then
+                CType(e.Row.FindControl("txtImporte"), TextBox).BackColor = Drawing.Color.LightPink
+                CType(e.Row.FindControl("rfvImporte"), RequiredFieldValidator).Enabled = True
+            Else
+                CType(e.Row.FindControl("rfvImporte"), RequiredFieldValidator).Enabled = False
+            End If
+
+            Dim objCliente As ASP.controles_busqueda_ctlcliente_buscar_ascx = CType(e.Row.FindControl("ctlClienteItem"), ASP.controles_busqueda_ctlcliente_buscar_ascx)
+            Dim objProveedor As ASP.controles_busqueda_ctlproveedor_buscar_ascx = CType(e.Row.FindControl("ctlProveedorItem"), ASP.controles_busqueda_ctlproveedor_buscar_ascx)
+            Dim objCentroCosto As ASP.controles_busqueda_ctlcentrocosto_buscar_ascx = CType(e.Row.FindControl("ctlCentroCostoItem"), ASP.controles_busqueda_ctlcentrocosto_buscar_ascx)
+            Dim objTipoDocumento As ASP.controles_busqueda_ctltipodocumento_listar_ascx = CType(e.Row.FindControl("ctlTipoDocumentoItem"), ASP.controles_busqueda_ctltipodocumento_listar_ascx)
+
+            objCliente.Limpia()
+            objProveedor.Limpia()
+            objCentroCosto.Limpia()
+            objTipoDocumento.Limpiar()
+        
+        End If
+    End Sub
+
+    Protected Sub btnTerminar_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnTerminar.Click
+        Registrar()
+    End Sub
+
+    Private Sub Registrar()
+        Dim lstOperacionCuenta As New List(Of EN_OperacionCuenta)
+        Dim entOperacionCuenta As New EN_OperacionCuenta
+        Dim entOperacionVoucher As New EN_OperacionVoucher
+        Dim objOperacionVoucher As New LN_ALVINET_CONTA.OPERACION.LN_OperacionVoucher
+
+        For Each grdItem As GridViewRow In grdDatos.Rows
+            entOperacionCuenta = New EN_OperacionCuenta
+
+            Dim objCliente As ASP.controles_busqueda_ctlcliente_buscar_ascx = CType(grdItem.FindControl("ctlClienteItem"), ASP.controles_busqueda_ctlcliente_buscar_ascx)
+            Dim objProveedor As ASP.controles_busqueda_ctlproveedor_buscar_ascx = CType(grdItem.FindControl("ctlProveedorItem"), ASP.controles_busqueda_ctlproveedor_buscar_ascx)
+            Dim objCentroCosto As ASP.controles_busqueda_ctlcentrocosto_buscar_ascx = CType(grdItem.FindControl("ctlCentroCostoItem"), ASP.controles_busqueda_ctlcentrocosto_buscar_ascx)
+            Dim objTipoDocumento As ASP.controles_busqueda_ctltipodocumento_listar_ascx = CType(grdItem.FindControl("ctlTipoDocumentoItem"), ASP.controles_busqueda_ctltipodocumento_listar_ascx)
+
+            entOperacionCuenta.IdCuentaContable = CType(grdItem.FindControl("lblCuenta"), Label).Text
+            entOperacionCuenta.Importe = CType(grdItem.FindControl("txtImporte"), TextBox).Text
+            entOperacionCuenta.Glosa = CType(grdItem.FindControl("txtGlosa"), TextBox).Text
+            If entOperacionCuenta.Glosa = "" Then
+                entOperacionCuenta.Glosa = txtGlosa.Text
+            End If
+            entOperacionCuenta.EsCargo = grdItem.Cells(5).Text
+            entOperacionCuenta.IdCliente = objCliente.IdCliente
+            If entOperacionCuenta.IdCliente = "" Then
+                entOperacionCuenta.IdCliente = ctlCliente.IdCliente
+            End If
+            entOperacionCuenta.IdProveedor = objProveedor.IdProveedor
+            If entOperacionCuenta.IdProveedor = "" Then
+                entOperacionCuenta.IdProveedor = ctlProveedor.IdProveedor
+            End If
+            entOperacionCuenta.IdCentroCosto = objCentroCosto.IdCentroCosto
+            If entOperacionCuenta.IdCentroCosto = "" Then
+                entOperacionCuenta.IdCentroCosto = ctlCentroCosto.IdCentroCosto
+            End If
+
+            entOperacionCuenta.IdTipoDocumento = objTipoDocumento.IdtipoDocumento
+            entOperacionCuenta.NumeroDocumento = CType(grdItem.FindControl("txtDocumento"), TextBox).Text
+
+            If entOperacionCuenta.IdTipoDocumento = "" Then
+                entOperacionCuenta.IdTipoDocumento = ctlDocumento.codTipoDocumento
+            End If
+            If entOperacionCuenta.NumeroDocumento = "" Then
+                entOperacionCuenta.NumeroDocumento = ctlDocumento.NumeroDocumento
+            End If
+
+            lstOperacionCuenta.Add(entOperacionCuenta)
+        Next
+
+        entOperacionVoucher.Idempresa = Session("Empresa")
+        entOperacionVoucher.IdEjercicio = Session("EjercicioEmpresa")
+        entOperacionVoucher.IdContabilidad = Session("Contabilidad")
+        entOperacionVoucher.IdOperacion = lstOperacion.SelectedValue
+        entOperacionVoucher.Fecha = txtFecha.Text
+        entOperacionVoucher.IdCliente = ctlCliente.IdCliente
+        entOperacionVoucher.IdTipoDocumento = ctlDocumento.codTipoDocumento
+        entOperacionVoucher.NumeroDocumento = ctlDocumento.NumeroDocumento
+        entOperacionVoucher.IdCentroCosto = ctlCentroCosto.IdCentroCosto
+        entOperacionVoucher.IdProveedor = ctlProveedor.IdProveedor
+
+        entOperacionVoucher.Idempresa = Session("Empresa")
+
+        objOperacionVoucher.entOperacion = entOperacionVoucher
+        objOperacionVoucher.lstCuenta = lstOperacionCuenta
+        objOperacionVoucher.Registrar()
+    End Sub
+End Class

@@ -1,0 +1,194 @@
+﻿*
+{
+    margin:0px;
+}
+body 
+{
+    font-family:Arial;
+    font-size:10px;
+}
+.Cabecera
+{
+    height:100px;
+    width:100%;
+    float:left;
+    background-color:#ffffff;
+    background-image:url(../IMAGES/bgCabecera.png);
+    background-repeat:repeat-x;
+    background-position:bottom;
+}
+.Cabecera .Logo
+{
+    width:200px;
+    height:100px;
+    float:left;
+}
+.Cabecera .Info
+{
+    width:750px;
+    height:100px;
+    float:left;
+    padding-left:50px;
+}
+.Cabecera .Info .Linea1 
+{
+    width:700px;
+    height:25px;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    margin-top:2px;
+    border: solid 1px Black;
+}
+.Cabecera .Info .Linea2 
+{
+    width:700px;
+    height:25px;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    margin-top:2px;
+}
+.Cabecera .Info .Linea3 
+{
+    width:700px;
+    height:25px;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    margin-top:2px;
+    border: solid 1px Black;
+}
+.Principal
+{
+    width:100%;
+    height:100%;
+    min-height:600px;
+    float:left;
+    background-color:#ffffff;
+}
+.Principal #Menu
+{
+    width:130px;
+    min-height:600px;    
+    float:left;
+    margin: 2px 2px 2px 2px;
+    position:absolute;
+    top:2px;
+    left:0px;
+    border-right: solid 1px #e8e8e8;
+}
+.Principal .Cuerpo
+{
+    position:relative;
+    top:0px;
+    left:2px;
+    min-height:600px;
+    width:auto;   
+    float:left;
+    margin: 2px 2px 2px 2px;
+}
+.Pie
+{
+    width:100%;
+    height:30px;
+    padding: 5px 5px 5px 5px;
+    background-color: #999999;
+}
+.Principal .TituloPrincipal
+{
+    font-size:14px;
+    font-weight:bold;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    background-image:url(../IMAGES/right.gif);
+    background-repeat:no-repeat;
+    background-position:center left;
+}
+.Principal .CajaTexto
+{
+    font-size:10px;
+    width:100px;
+}
+.Principal .Etiqueta
+{
+    font-size:10px;
+    width:100px;
+    font-weight:bold;
+}
+/**********************/
+/*FORMULARIO****************/
+
+.Principal .Formulario
+{
+    padding-top:15px;
+    background-color:#ffffff;
+    background-image:url(../IMAGES/bgTitleFormulario.png);
+    background-repeat:repeat-x;
+    background-position:top;
+    border: solid 1px #333333;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;    
+    position:absolute;
+    top:80px;
+    left:80px;
+}
+
+.Principal .Formulario .Titulo
+{
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:10px;
+    padding-left:10px;
+}
+
+.Principal .Opciones
+{
+    height:30px;
+    margin-bottom:10px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.Principal .Boton
+{
+    background-color:#e8e8e8;
+    color:#000000;
+}
+.Principal .Boton:hover
+{
+    background-color:#e8e8e8;
+    color:Red;
+}
+
+/**********************************************/
+/* DATA GRID */
+/**********************************************/
+.Principal .GridHeader
+{
+    height:30px;
+    text-transform:uppercase;
+    background-color: #C0C0C0;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #333333;
+    margin-bottom: 2px;
+}
+.Principal .GridItem
+{
+    background-color: #FFFFFF;
+}
+.Principal .GridAltItem
+{
+    background-color: #CCCCCC;
+}
+.Principal .NoVisible
+{
+    visibility:hidden;
+    display:none;
+}

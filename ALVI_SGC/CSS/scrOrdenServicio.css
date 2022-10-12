@@ -1,0 +1,41 @@
+﻿*{ margin:0; }
+        .Impresion
+        {
+            border: solid 1px #000000;
+            width:145mm;
+            height:217mm;
+            font-size:10px;
+            float:left;
+            position:absolute; 
+        }
+        .Impresion .Numero { position:absolute; top:10mm; left:100mm; float:left; }
+        .Impresion .Dia { position:absolute; top:81mm; left:72mm; float:left; }
+        .Impresion .Mes { position:absolute; top:81mm; left:85mm; float:left;  }
+        .Impresion .Agno { position:absolute; top:81mm; left:133mm; float:left;  }
+        
+        .Impresion .Cliente { position:absolute; top:87mm; left:23mm; float:left;  }
+        .Impresion .RUC { position:absolute; top:87mm; left:110mm; float:left;  }
+        .Impresion .Lugar { position:absolute; top:93mm; left:50mm; float:left;  }
+        .Impresion .Solicitado { position:absolute; top:100mm; left:50mm; float:left;  }
+        .Impresion .Efectuado { position:absolute; top:106mm; left:50mm; float:left;  }
+        .Impresion .Responsable { position:absolute; top:112mm; left:50mm; float:left;  }
+        .Impresion .DNI { position:absolute; top:112mm; left:120mm; float:left;  }
+        .Impresion .Telefono { position:absolute; top:119mm; left:17mm; float:left;  }
+        .Impresion .Direccion { position:absolute; top:119mm; left:70mm; float:left;  }
+        .Impresion .Salida { position:absolute; top:126mm; left:15mm; float:left;  }
+        .Impresion .Llegada { position:absolute; top:126mm; left:75mm; float:left;  }
+        .Impresion .Termino { position:absolute; top:134mm; left:15mm; float:left;  }
+        .Impresion .Regreso { position:absolute; top:134mm; left:75mm; float:left;  }
+        .Impresion .TotalHora { position:absolute; top:141mm; left:15mm; float:left;  }
+        .Impresion .Tarifa { position:absolute; top:141mm; left:35mm; float:left;  }
+        .Impresion .TotalSoles { position:absolute; top:141mm; left:55mm; float:left;  }
+        .Impresion .Horas { position:absolute; top:141mm; left:75mm; float:left;  }
+        .Impresion .Total { position:absolute; top:150mm; left:110mm; float:left;  }
+
+        .Impresion .Opcion1 { position:absolute; top:157mm; left:30mm; float:left;  }
+        .Impresion .Opcion2 { position:absolute; top:157mm; left:45mm; float:left;  }
+        .Impresion .Opcion3 { position:absolute; top:157mm; left:73mm; float:left;  }
+        .Impresion .Opcion4 { position:absolute; top:157mm; left:111mm; float:left;  }
+        .Impresion .Opcion5 { position:absolute; top:157mm; left:135mm; float:left;  }
+
+        .Impresion .Observacion { position:absolute; top:164mm; left:35mm; float:left;  }

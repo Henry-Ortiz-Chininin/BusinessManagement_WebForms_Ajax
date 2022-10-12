@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+ADVERTENCIA: NO MODIFIQUE el archivo, se usa para el proceso de publicación web.
+
+Copyright (C) Microsoft Corporation. Reservados todos los derechos.
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{bf27f379-4865-469c-bcd5-40429ef7e0a2}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/ALVI_SGC</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebMetabasePath>
+    </SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatos\AccesoDatos.vbproj">
+      <Project>{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}</Project>
+      <Name>AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AD_ALVINET_CONTA\AD_ALVINET_CONTA.vbproj">
+      <Project>{5A5C4643-D70D-476B-9F93-641A915575DA}</Project>
+      <Name>AD_ALVINET_CONTA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ALVI_LOGIC\ALVI_LOGIC.vbproj">
+      <Project>{7974AC79-6EA4-4AFE-AD67-942D161C16AD}</Project>
+      <Name>ALVI_LOGIC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ALVI_Security\ALVI_Security.vbproj">
+      <Project>{61631A03-A40A-454D-AA98-D733176D2D7F}</Project>
+      <Name>ALVI_Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EN_ALVINET_CONTA\EN_ALVINET_CONTA.vbproj">
+      <Project>{397D3200-B130-42D6-9AD1-9A28FEDDCE45}</Project>
+      <Name>EN_ALVINET_CONTA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LN_ALVINET_CONTA\LN_ALVINET_CONTA.vbproj">
+      <Project>{A199392F-BAC9-43F8-887E-FFEF3A903CFB}</Project>
+      <Name>LN_ALVINET_CONTA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>

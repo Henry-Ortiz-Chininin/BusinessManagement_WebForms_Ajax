@@ -1,0 +1,76 @@
+﻿<%@ Master Language="VB" CodeFile="Interior.master.vb" Inherits="MASTER_Interior" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ALVINET-CONTABILIDAD</title>
+    <link rel="Stylesheet" href="../ESTILOS/Interior.css" />
+    <script src="../JS/jquery-1.7.1.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="../ESTILOS/drilldownmenu.css" />
+    <script type="text/javascript" src="../JS/drilldownmenu.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:HiddenField ID="hdnTipoCambio" runat="server" />
+        <asp:HiddenField ID="hdnIdEmpresa" runat="server" />
+        <asp:HiddenField ID="hdnIdUsuario" runat="server" />
+        <asp:HiddenField ID="hdnContabilidad" runat="server" />
+        <asp:HiddenField ID="hdnEjercicio" runat="server" />
+        <asp:HiddenField ID="hdnSeccion" runat="server" />
+        <asp:HiddenField ID="hdnRuta" runat="server" />
+        <%--<asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>--%>
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+        </asp:ToolkitScriptManager>
+        <div class="Cabecera">
+            <div class="Logo"></div>
+            <div class="Info">
+                <div class="Linea1">
+                    <asp:Label ID="lblEmpresa" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="lblUsuario" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="lblTipoCambio" runat="server" Text=""></asp:Label>
+                </div>
+                <div class="Linea2">
+                    <asp:Label ID="lblContabilidad" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="lblEjercicio" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="lblFecha" runat="server" Text=""></asp:Label>
+                </div>
+                <div class="Linea3">
+                    <div id="drillcrumb"></div>
+                </div>
+            </div>
+        </div>
+        <div class="Principal">
+            <div id="Menu" class="drillmenu">
+                <asp:Literal ID="litMenu" runat="server"></asp:Literal>
+            </div>
+            <div class="Cuerpo">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="Pie">
+            <img src="../IMAGES/logo_pie.jpg" />
+        </div>
+        <script type="text/javascript">
+            var mymenu = new drilldownmenu({
+                menuid: 'Menu',
+                menuheight: 'auto',
+                breadcrumbid: 'drillcrumb',
+                homecrumbtext: document.getElementById("hdnSeccion").value,
+                ruta: document.getElementById("hdnRuta").value,
+                persist: { enable: true, overrideselectedul: true }
+            })
+        </script>
+
+
+    </form>
+</body>
+</html>

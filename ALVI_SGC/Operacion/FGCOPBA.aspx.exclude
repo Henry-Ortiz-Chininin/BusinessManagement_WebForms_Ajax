@@ -1,0 +1,14 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Masterpage/General.master" AutoEventWireup="false" CodeFile="FGCOPBA.aspx.vb" Inherits="OPERACION_FGCOPBA" %>
+<%@ Register TagPrefix="AVC" TagName="OperacionContable" Src="~/CONTROLES/REGISTRO/ctlOperacionContable_Registro.ascx" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div id="divCuerpo">
+    <asp:Panel ID="pnlFormulario" CssClass="Formulario" runat="server">
+        <AVC:OperacionContable runat="server" ID="ctlOperacionContable" />
+    </asp:Panel>
+</div>
+</asp:Content>
+

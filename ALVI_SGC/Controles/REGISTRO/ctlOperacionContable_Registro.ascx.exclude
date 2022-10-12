@@ -1,0 +1,137 @@
+﻿<%@ Control Language="VB" AutoEventWireup="false" CodeFile="ctlOperacionContable_Registro.ascx.vb" Inherits="CONTROLES_REGISTRO_ctlOperacionContable_Registro" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<%@ Register TagPrefix="AVC" TagName="CentroCosto" Src="~/Controles/ctlCentroCosto_Buscar.ascx" %>
+<%@ Register TagPrefix="AVC" TagName="Cliente" Src="~/Controles/ctlCliente_Buscar.ascx" %>
+<%@ Register TagPrefix="AVC" TagName="Proveedor" Src="~/Controles/ctlProveedor_Buscar.ascx" %>
+<%@ Register TagPrefix="AVC" TagName="Documento" Src="~/CONTROLES/BUSQUEDA/ctlDocumento_Buscar.ascx" %>
+<%@ Register TagPrefix="AVC" TagName="TipoDocumento" Src="~/Controles/BUSQUEDA/ctlTipoDocumento_Listar.ascx" %>
+
+<%@ Register TagPrefix="GRD" TagName="CentroCosto" Src="~/Controles/BUSQUEDA/ctlCentroCosto_Buscar.ascx" %>
+<%@ Register TagPrefix="GRD" TagName="Cliente" Src="~/Controles/BUSQUEDA/ctlCliente_Buscar.ascx" %>
+<%@ Register TagPrefix="GRD" TagName="Proveedor" Src="~/Controles/BUSQUEDA/ctlProveedor_Buscar.ascx" %>
+<%@ Register TagPrefix="GRD" TagName="TipoDocumento" Src="~/Controles/BUSQUEDA/ctlTipoDocumento_Listar.ascx" %>
+
+<div class="Titulo">OPERACION CONTABLE - REGISTRO</div>
+
+<table cellpadding="1" cellspacing="1" border="0" width="700">
+    <tr>
+        <td valign="top" width="180" rowspan="3">
+            <em class="Titulo12">Operación:</em>
+            <asp:ListBox ID="lstOperacion" Width="200" CssClass="Texto12" AutoPostBack="true" Rows="5"  runat="server"></asp:ListBox> 
+            <br />
+            <em class="Titulo12">Sub-Operación:</em>
+            <asp:UpdatePanel ID="upnSubOperacion" runat="server">
+                <ContentTemplate>
+                    <asp:ListBox ID="lstSubOperacion" Width="200" AutoPostBack="true" CssClass="Texto12"  Rows="4"  runat="server"></asp:ListBox>
+                </ContentTemplate>
+                <Triggers>
+                    <asp:AsyncPostBackTrigger ControlID="lstOperacion" EventName="SelectedIndexChanged" />
+                </Triggers>
+            </asp:UpdatePanel>
+            <br />
+            <em class="Titulo12">Fecha:</em>
+            <asp:TextBox ID="txtFecha" runat="server"></asp:TextBox>
+            <asp:CalendarExtender ID="calFecha" TargetControlID="txtFecha"
+            enabled="true" DaysModeTitleFormat="MMMM-yyyy" Format="dd/MM/yyyy" TodaysDateFormat="dd/MM/yyyy" runat="server">
+            </asp:CalendarExtender>
+        </td>
+        <td valign="top">
+            <AVC:CentroCosto runat="server" ID="ctlCentroCosto" />
+            <AVC:Documento runat="server" ID="ctlDocumento" />
+        </td>
+        <td valign="top">
+            <AVC:Cliente runat="server" ID="ctlCliente" />
+            <AVC:Proveedor runat="server" ID="ctlProveedor" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="Titulo12">Glosa general:</td>
+    </tr>
+    <tr>
+        <td colspan="2"><asp:TextBox ID="txtGlosa" CssClass="Texto12" runat="server"></asp:TextBox></td>
+    </tr>
+</table>
+<asp:UpdatePanel ID="upnDatos" runat="server">
+    <ContentTemplate>
+    <asp:GridView ID="grdDatos" AutoGenerateColumns="false" runat="server" AllowSorting="true" ShowFooter="true" Width="1000">
+    <Columns>
+        <asp:TemplateField  HeaderStyle-Width="80px">
+            <HeaderTemplate>Cuenta</HeaderTemplate>
+            <ItemTemplate>
+                <asp:Label ID="lblCuenta" runat="server" Text='<%#Eval("IdCuenta") %>' ></asp:Label>
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:TemplateField HeaderStyle-Width="200px">
+            <HeaderTemplate>Concepto</HeaderTemplate>
+            <ItemTemplate>
+                <asp:Label ID="lblConcepto" runat="server" Text='<%#Eval("Observacion") %>' ></asp:Label>
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:TemplateField HeaderStyle-Width="100px">
+            <HeaderTemplate>Tipo</HeaderTemplate>
+            <ItemTemplate>
+                <asp:Label ID="lblTipo" runat="server" Text=""></asp:Label>
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:TemplateField  HeaderStyle-Width="100px" ItemStyle-HorizontalAlign="Right">
+            <HeaderTemplate>Importe</HeaderTemplate>
+            <ItemTemplate>
+                <asp:RequiredFieldValidator ForeColor="Red" ID="rfvImporte" ControlToValidate="txtImporte"  runat="server" Text="" ErrorMessage=""></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtImporte" Width="80px" CssClass="TextoNumero" Text='<%#Eval("Importe") %>' runat="server"></asp:TextBox>
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:TemplateField  HeaderStyle-Width="150px">
+            <HeaderTemplate>Glosa</HeaderTemplate>
+            <ItemTemplate>
+                <asp:TextBox ID="txtGlosa" CssClass="Texto12" Text='<%#Eval("Glosa") %>' runat="server"></asp:TextBox>
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:BoundField HeaderText="EsCargo" ItemStyle-CssClass="NoVisible" FooterStyle-CssClass="NoVisible" HeaderStyle-CssClass="NoVisible" DataField="EsCargo" />
+        <asp:BoundField HeaderText="EsAbono" ItemStyle-CssClass="NoVisible" FooterStyle-CssClass="NoVisible" HeaderStyle-CssClass="NoVisible"  DataField="EsAbono" />
+        <asp:BoundField HeaderText="EsObligatorio" ItemStyle-CssClass="NoVisible" FooterStyle-CssClass="NoVisible" HeaderStyle-CssClass="NoVisible"  DataField="EsObligatorio" />
+        <asp:TemplateField  HeaderStyle-Width="150px">
+            <HeaderTemplate>Tipo Doc.</HeaderTemplate>
+            <ItemTemplate>
+                <GRD:TipoDocumento runat="server" ID="ctlTipoDocumentoItem" />
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:TemplateField  HeaderStyle-Width="150px">
+            <HeaderTemplate>Documento</HeaderTemplate>
+            <ItemTemplate>
+                <asp:TextBox ID="txtDocumento" CssClass="Titulo12" Text='<%#Eval("NumeroDocumento") %>' runat="server"></asp:TextBox>
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:TemplateField  HeaderStyle-Width="150px">
+            <HeaderTemplate>Cliente</HeaderTemplate>
+            <ItemTemplate>
+                <GRD:Cliente runat="server" ID="ctlClienteItem" />
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:TemplateField  HeaderStyle-Width="150px">
+            <HeaderTemplate>Proveedor</HeaderTemplate>
+            <ItemTemplate>
+                <GRD:Proveedor runat="server" ID="ctlProveedorItem" />
+            </ItemTemplate>
+        </asp:TemplateField>
+        <asp:TemplateField  HeaderStyle-Width="150px">
+            <HeaderTemplate>Centro Costo</HeaderTemplate>
+            <ItemTemplate>
+                <GRD:CentroCosto runat="server" ID="ctlCentroCostoItem" />
+            </ItemTemplate>
+        </asp:TemplateField>
+    </Columns>
+    <AlternatingRowStyle CssClass="GridAltItem" />
+    <FooterStyle CssClass="GridFooter" />
+    <HeaderStyle CssClass="GridHeader" />
+    <RowStyle CssClass="GridItem" />
+</asp:GridView>
+    </ContentTemplate>
+    <Triggers>
+        <asp:AsyncPostBackTrigger ControlID="lstSubOperacion" EventName="SelectedIndexChanged" />
+    </Triggers>
+</asp:UpdatePanel>
+<div id="Opciones">
+    <asp:Button ID="btnTerminar" CssClass="Boton" runat="server" Text="Registrar y Cerrar" />
+    <asp:Button ID="btnRegistrar" CssClass="Boton" runat="server" Text="Registrar" />
+    <asp:Button ID="btnCerrar" CssClass="Boton" runat="server" Text="Cerrar" />
+</div>

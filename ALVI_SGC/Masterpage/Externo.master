@@ -1,0 +1,51 @@
+﻿<%@ Master Language="VB" CodeFile="Externo.master.vb" Inherits="Masterpage_Externo" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sistema de Gestion de Costos - Alta Visión Consultores - Login</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        Body
+        {
+            margin:0;
+            background-color:#336699;
+        }
+        .Cuerpo
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            width:100%;
+            height:100%;
+            float:left;
+            padding-top:50px;
+        }
+        .Formulario
+        {
+            width:300px;
+            height:200px;
+            margin:0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            background-color:#ffffff;
+            background-image:url(../IMAGES/bgCabecera.png);
+            background-repeat:repeat-x;
+            background-position:bottom;
+            vertical-align:middle;
+            padding-top:50px;
+        }
+    </style>
+</head>
+<body>
+<div id="barraTop"></div>        
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

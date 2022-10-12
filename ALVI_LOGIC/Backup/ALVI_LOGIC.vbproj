@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7974AC79-6EA4-4AFE-AD67-942D161C16AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ALVI_LOGIC</RootNamespace>
+    <AssemblyName>ALVI_LOGIC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ALVI_LOGIC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ALVI_LOGIC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuracion\AsignacionFija.vb" />
+    <Compile Include="Configuracion\CentroCosto.vb" />
+    <Compile Include="Configuracion\Clasificacion\Contable.vb" />
+    <Compile Include="Configuracion\Clasificacion\FijoVariable.vb" />
+    <Compile Include="Configuracion\Clasificacion\Gerencial.vb" />
+    <Compile Include="Configuracion\Clasificacion\Tipo.vb" />
+    <Compile Include="Configuracion\CuentaGasto.vb" />
+    <Compile Include="Configuracion\DistribucionSoporte.vb" />
+    <Compile Include="Configuracion\Inductores.vb" />
+    <Compile Include="Configuracion\Partidas.vb" />
+    <Compile Include="Configuracion\Energetico.vb" />
+    <Compile Include="Configuracion\UnidadMedida.vb" />
+    <Compile Include="Costos\GastoContable.vb" />
+    <Compile Include="General\Util.vb" />
+    <Compile Include="Maestros\Administracion\Personal.vb" />
+    <Compile Include="Maestros\Articulo\Articulo.vb" />
+    <Compile Include="Maestros\Articulo\Atributo\Atributo.vb" />
+    <Compile Include="Maestros\Articulo\Atributo\AtributoxArticulo.vb" />
+    <Compile Include="Maestros\Articulo\Atributo\Valores.vb" />
+    <Compile Include="Maestros\Articulo\Familia.vb" />
+    <Compile Include="Maestros\Articulo\SubFamilia.vb" />
+    <Compile Include="Maestros\Compras\Proveedor.vb" />
+    <Compile Include="Maestros\Produccion\TipoMaquina.vb" />
+    <Compile Include="Maestros\Ruta\Operacion.vb" />
+    <Compile Include="Maestros\Administracion\TipoDocumento.vb" />
+    <Compile Include="Maestros\Logistica\Almacen.vb" />
+    <Compile Include="Maestros\Logistica\TipoMovimiento.vb" />
+    <Compile Include="Maestros\Produccion\Etapa.vb" />
+    <Compile Include="Maestros\Produccion\Maquina.vb" />
+    <Compile Include="Maestros\Produccion\RecetaMaterial.vb" />
+    <Compile Include="Maestros\Produccion\Planta.vb" />
+    <Compile Include="Maestros\Produccion\Proceso.vb" />
+    <Compile Include="Maestros\Produccion\Receta.vb" />
+    <Compile Include="Maestros\Ruta\Material.vb" />
+    <Compile Include="Maestros\Ruta\Ruta.vb" />
+    <Compile Include="Maestros\Ruta\Secuencia.vb" />
+    <Compile Include="Maestros\Ventas\Cliente.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Proceso\Logistica\Kardex\Detalle.vb" />
+    <Compile Include="Proceso\Logistica\Kardex\Movimiento.vb" />
+    <Compile Include="Proceso\Logistica\Kardex\Resumen.vb" />
+    <Compile Include="Proceso\Produccion\OrdenProduccion\ArticuloOrden.vb" />
+    <Compile Include="Proceso\Produccion\OrdenProduccion\MaterialOrden.vb" />
+    <Compile Include="Proceso\Produccion\OrdenProduccion\OrdenProduccion.vb" />
+    <Compile Include="Proceso\Produccion\OrdenProduccion\RutaOrden.vb" />
+    <Compile Include="Proceso\Produccion\RegistroProduccion\Diario.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Proceso\Produccion\RegistroProduccion\ManoObra.vb" />
+    <Compile Include="Proceso\Produccion\RegistroProduccion\Materiales.vb" />
+    <Compile Include="Proceso\Produccion\Servicios\ATerceros.vb" />
+    <Compile Include="Proceso\Produccion\Servicios\DeTerceros.vb" />
+    <Compile Include="Resultado\GastoContabilidad.vb" />
+    <Compile Include="Resultado\GastoGerencial.vb" />
+    <Compile Include="Resultado\Produccion.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatos\AccesoDatos.vbproj">
+      <Project>{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}</Project>
+      <Name>AccesoDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Proceso\Ventas\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

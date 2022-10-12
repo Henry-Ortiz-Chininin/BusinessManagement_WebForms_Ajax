@@ -1,0 +1,5 @@
+﻿
+Partial Class OPERACION_FGCOPBA
+    Inherits System.Web.UI.Page
+
+End Class

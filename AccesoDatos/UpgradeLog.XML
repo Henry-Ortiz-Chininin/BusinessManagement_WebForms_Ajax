@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AccesoDatos">
+</Property><Property Name="Archivo de la solución" Value="D:\blitz\AccesoDatos\AccesoDatos.sln">
+</Property><Property Name="Date" Value="miércoles, 27 de agosto de 2008">
+</Property><Property Name="Time" Value="15:48:25">
+</Property></Properties><Event ErrorLevel="0" Project="AccesoDatos" Source="AccesoDatos.vbproj" Description="Se realizó correctamente la copia de seguridad del archivo de proyecto D:\blitz\AccesoDatos\Backup\AccesoDatos.vbproj">
+</Event><Event ErrorLevel="0" Project="AccesoDatos" Source="AccesoDatos.vbproj.user" Description="La copia de seguridad D:\blitz\AccesoDatos\Backup\AccesoDatos.vbproj.user del archivo se ha creado correctamente">
+</Event><Event ErrorLevel="0" Project="AccesoDatos" Source="AccesoDatosGenerico.vb" Description="Se realizó correctamente la copia de seguridad del archivo D:\blitz\AccesoDatos\Backup\AccesoDatosGenerico.vb">
+</Event><Event ErrorLevel="0" Project="AccesoDatos" Source="AssemblyInfo.vb" Description="Se realizó correctamente la copia de seguridad del archivo D:\blitz\AccesoDatos\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="AccesoDatos" Source="GeneradorCadenaConexion.vb" Description="Se realizó correctamente la copia de seguridad del archivo D:\blitz\AccesoDatos\Backup\GeneradorCadenaConexion.vb">
+</Event><Event ErrorLevel="0" Project="AccesoDatos" Source="SQL Server\AccesoDatosSQLServer.vb" Description="Se realizó correctamente la copia de seguridad del archivo D:\blitz\AccesoDatos\Backup\SQL Server\AccesoDatosSQLServer.vb">
+</Event><Event ErrorLevel="0" Project="AccesoDatos" Source="SQL Server\SQLHelper.vb" Description="Se realizó correctamente la copia de seguridad del archivo D:\blitz\AccesoDatos\Backup\SQL Server\SQLHelper.vb">
+</Event><Event ErrorLevel="0" Project="AccesoDatos" Source="AccesoDatos.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="AccesoDatos" Source="AccesoDatos.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AccesoDatos" Source="AccesoDatos.vbproj" Description="Búsqueda completa: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

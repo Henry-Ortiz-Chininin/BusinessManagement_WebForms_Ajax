@@ -1,0 +1,73 @@
+.drillmenu{ /* main DIV container of menu */
+    height:100%; min-height:600px;
+    font-size: 11px;
+    font-weight: bold;    
+    width:120px;
+    margin: 2px 5px 10px 5px;
+    padding-right:10px;
+    overflow-y: scroll; /*Scrollable DIV for those with JavaScript disabled*/
+}
+
+
+.drillmenu ul{ /*menu ULs*/
+font: normal 11px Arial;
+margin: 0;
+padding: 0;
+list-style-type: none;
+background: #FFFFFF; /*background of menu*/
+}
+
+.drillmenu li a{ /*menu links*/
+display: block;
+color: black;
+text-decoration: none;
+padding: 5px;
+background-color:#e8e8e8;
+margin-bottom:2px;
+}
+
+* html .drillmenu li{ /*IE6 CSS hack*/
+display: inline-block;
+}
+
+.drillmenu li a:hover{
+background-color: #4A2500;
+color: white;
+}
+
+li.backcontroltitle{ /*style of top level menu title*/
+background-image:url(../images/bgTitleMenu.png);
+background-repeat: no-repeat;
+color: white;
+padding: 4px;
+height:25px;
+font-size:12px;
+font-weight:bold;
+}
+
+li.backcontrol{ /*style of back button control that gets added to the top of each sub UL*/
+background-image:url(../images/bgTitleMenu.png);
+background-repeat: no-repeat;
+font-size:12px;
+font-weight:bold;
+color: white;
+padding: 4px;
+cursor: hand;
+height:25px;
+cursor: pointer;
+}
+
+#drillcrumb{ /*custom, user defined DIV that contains breadcrumb trail*/
+padding-top: 2px;
+padding-bottom: 2px;
+margin-left: 5px;
+padding-left:2px;
+font: bold 10px Arial;
+/*background-image: url(../images/mnuMain.jpg); 
+background-repeat:no-repeat;*/
+}
+
+#drillcrumb a{ /*custom element*/
+color: #999999;
+text-decoration:none;
+}

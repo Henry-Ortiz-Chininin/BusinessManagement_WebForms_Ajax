@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccesoDatos", "..\AccesoDatos\AccesoDatos.vbproj", "{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AD_ALVINET_CONTA", "..\AD_ALVINET_CONTA\AD_ALVINET_CONTA.vbproj", "{5A5C4643-D70D-476B-9F93-641A915575DA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ALVI_LOGIC", "..\ALVI_LOGIC\ALVI_LOGIC.vbproj", "{7974AC79-6EA4-4AFE-AD67-942D161C16AD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ALVI_Security", "..\ALVI_Security\ALVI_Security.vbproj", "{61631A03-A40A-454D-AA98-D733176D2D7F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EN_ALVINET_CONTA", "..\EN_ALVINET_CONTA\EN_ALVINET_CONTA.vbproj", "{397D3200-B130-42D6-9AD1-9A28FEDDCE45}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LN_ALVINET_CONTA", "..\LN_ALVINET_CONTA\LN_ALVINET_CONTA.vbproj", "{A199392F-BAC9-43F8-887E-FFEF3A903CFB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ALVI_SGC", "..\ALVI_SGC\", "{0362C971-55C6-4D0B-B807-0E7567239206}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}|AccesoDatos.dll;{5A5C4643-D70D-476B-9F93-641A915575DA}|AD_ALVINET_CONTA.dll;{397D3200-B130-42D6-9AD1-9A28FEDDCE45}|EN_ALVINET_CONTA.dll;{7974AC79-6EA4-4AFE-AD67-942D161C16AD}|ALVI_LOGIC.dll;{61631A03-A40A-454D-AA98-D733176D2D7F}|ALVI_Security.dll;{A199392F-BAC9-43F8-887E-FFEF3A903CFB}|LN_ALVINET_CONTA.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ALVI_SGC"
+		Debug.AspNetCompiler.PhysicalPath = "..\ALVI_SGC\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ALVI_SGC\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ALVI_SGC"
+		Release.AspNetCompiler.PhysicalPath = "..\ALVI_SGC\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ALVI_SGC\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5850"
+		VWDVirtualPath = "/ALVINET"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5C4643-D70D-476B-9F93-641A915575DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5C4643-D70D-476B-9F93-641A915575DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5C4643-D70D-476B-9F93-641A915575DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5C4643-D70D-476B-9F93-641A915575DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7974AC79-6EA4-4AFE-AD67-942D161C16AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7974AC79-6EA4-4AFE-AD67-942D161C16AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7974AC79-6EA4-4AFE-AD67-942D161C16AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7974AC79-6EA4-4AFE-AD67-942D161C16AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61631A03-A40A-454D-AA98-D733176D2D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61631A03-A40A-454D-AA98-D733176D2D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61631A03-A40A-454D-AA98-D733176D2D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61631A03-A40A-454D-AA98-D733176D2D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397D3200-B130-42D6-9AD1-9A28FEDDCE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397D3200-B130-42D6-9AD1-9A28FEDDCE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397D3200-B130-42D6-9AD1-9A28FEDDCE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397D3200-B130-42D6-9AD1-9A28FEDDCE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A199392F-BAC9-43F8-887E-FFEF3A903CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A199392F-BAC9-43F8-887E-FFEF3A903CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A199392F-BAC9-43F8-887E-FFEF3A903CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A199392F-BAC9-43F8-887E-FFEF3A903CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0362C971-55C6-4D0B-B807-0E7567239206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0362C971-55C6-4D0B-B807-0E7567239206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0362C971-55C6-4D0B-B807-0E7567239206}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0362C971-55C6-4D0B-B807-0E7567239206}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

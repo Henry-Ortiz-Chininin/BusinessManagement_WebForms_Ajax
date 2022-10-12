@@ -1,0 +1,39 @@
+﻿/* FICHA DE COSTOS*/
+Body
+{
+    width:800px;
+    padding:5px 10px 5px 10px;
+    font-size:10px;
+}
+.Cabecera
+{
+    font-size:14px;
+    color:#336699;
+}
+.Titulo
+{
+    font-weight:bold;
+    font-size:12px;
+}
+.Texto
+{
+    font-size:12px;
+}
+.GridHeader
+{
+    border: solid 1px #333333;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+    font-weight:bold;    
+}
+.GridFooter
+{
+    border: solid 1px #333333;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+    font-weight:bold;    
+}
+.GridItem
+{
+    padding: 2px 2px 2px 2px;
+}

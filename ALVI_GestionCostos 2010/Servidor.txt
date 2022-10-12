@@ -1,0 +1,4 @@
+Server:		COREI3-PC
+User:		avc
+Password:	@ljusa
+DataBase:	udbALJUZA

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="xmlComprobante" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="xmlComprobante">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="var_IdComprobante" type="xs:string"/>
+        <xs:element name="int_Secuencia"  type="xs:integer"/>
+				<xs:element name="var_IdFactura" type="xs:string"/>
+				<xs:element name="var_Correlativo"  type="xs:string"/>
+				<xs:element name="var_Ruc"  type="xs:string"/>
+				<xs:element name="var_Cliente" type="xs:string"/>
+				<xs:element name="var_Direccion" type="xs:string"/>
+				<xs:element name="var_GuiaRemision"  type="xs:string"/>
+				<xs:element name="dtm_FechaEmision"  type="xs:string"/>
+				<xs:element name="num_Cantidad"  type="xs:decimal"/>
+				<xs:element name="var_IdArticulo"  type="xs:string"/>
+				<xs:element name="var_Articulo"  type="xs:string"/>
+        <xs:element name="var_Moneda"  type="xs:string"/>
+        <xs:element name="num_PrecioUnitario"  type="xs:decimal"/>
+        <xs:element name="num_Importe"  type="xs:decimal"/>
+        <xs:element name="num_Igv"  type="xs:decimal"/>
+        <xs:element name="num_SubTotal"  type="xs:decimal"/>
+        <xs:element name="num_Total"  type="xs:decimal"/>
+        <xs:element name="num_Desc"  type="xs:decimal"/>
+        <xs:element name="num_TotalParcial"  type="xs:decimal"/>
+        <xs:element name="var_TipoPago"  type="xs:string"/>
+        <xs:element name="var_Son"  type="xs:string"/>
+        <xs:element name="var_Cancelado"  type="xs:string"/>
+        <xs:element name="int_Dia"  type="xs:string"/>
+        <xs:element name="int_Mes"  type="xs:string"/>
+        <xs:element name="intAnio"  type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

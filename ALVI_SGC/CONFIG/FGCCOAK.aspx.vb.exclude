@@ -1,0 +1,109 @@
+﻿Imports EN_ALVINET_CONTA.CONFIG
+Imports LN_ALVINET_CONTA.CONFIG
+
+Partial Class CONFIG_FGCCOAK
+    Inherits System.Web.UI.Page
+
+    Private Sub bindGrid()
+        Dim objLNProveedor As New LN_Proveedor
+        Dim objENProveedor As New EN_Proveedor
+
+        objENProveedor.Idempresa = hdnEmpresa.Value
+        objLNProveedor.entProveedor = objENProveedor
+
+        objLNProveedor.Listar()
+        grdProveedor.DataSource = objLNProveedor.lstProveedores
+        grdProveedor.DataBind()
+    End Sub
+
+
+    Protected Sub btnNuevo_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnNuevo.Click
+        pnlRegistroProveedor.Visible = True
+        ctlProveedor.limpiar()
+
+    End Sub
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not IsPostBack Then
+            hdnUsuario.Value = Session("Usuario")
+            hdnEmpresa.Value = Session("Empresa")
+            bindGrid()
+            pnlRegistroProveedor.Visible = False
+        End If
+    End Sub
+
+    Protected Sub grdProveedor_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles grdProveedor.RowCommand
+
+        If e.CommandName = "EDITAR" Then
+            pnlRegistroProveedor.Visible = True
+
+            Dim intIndice As Integer = e.CommandArgument
+            Dim objProveedor As New EN_Proveedor
+
+            objProveedor.IdProveedor = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(0).Text)
+            objProveedor.Idempresa = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(1).Text)
+            objProveedor.EmpRazonSocial = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(2).Text)
+            objProveedor.RazonSocial = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(3).Text)
+            objProveedor.Ruc = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(4).Text)
+            objProveedor.Direccion = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(5).Text)
+            objProveedor.Retencion = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(6).Text)
+            objProveedor.Detraccion = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(7).Text)
+            objProveedor.ENacional = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(8).Text)
+
+            ctlProveedor.entProveedor = objProveedor
+
+        End If
+
+        If e.CommandName = "ELIMINAR" Then
+
+            Dim intIndice As Integer = e.CommandArgument
+            Dim objProveedor As New LN_Proveedor
+
+            Page.ClientScript.RegisterStartupScript(GetType(ClientScriptManager), "ALERTA", "<script language='javascript'>alert('EL REGISTRO SERA ELIMINADO');</script>")
+
+            objProveedor.entProveedor.IdProveedor = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(0).Text)
+            objProveedor.entProveedor.Idempresa = HttpUtility.HtmlDecode(grdProveedor.Rows(intIndice).Cells(1).Text)
+
+            objProveedor.Eliminar()
+
+        End If
+        bindGrid()
+    End Sub
+
+
+    Protected Sub ctlProveedor_cargarGrilla() Handles ctlProveedor.cargarGrilla
+        bindGrid()
+    End Sub
+
+    Protected Sub ctlProveedor_Cerrado() Handles ctlProveedor.Cerrado
+        pnlRegistroProveedor.Visible = False
+        bindGrid()
+    End Sub
+
+    Protected Sub ctlProveedor_Registrado() Handles ctlProveedor.Registrado
+        bindGrid()
+    End Sub
+
+
+    Protected Sub btnBuscar_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
+        bindGrid()
+    End Sub
+
+
+    Protected Sub btnCerrar_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnCerrar.Click
+        pnlRegistroProveedor.Visible = False
+    End Sub
+
+    Protected Sub grdProveedor_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles grdProveedor.RowDataBound
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            Dim btnEliminar As Button = CType(e.Row.FindControl("btnEliminar"), Button)
+            btnEliminar.Attributes.Add("onclick", "return confirm ('El Registro sera Eliminado');")
+        End If
+    End Sub
+
+
+    Protected Sub grdProveedor_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles grdProveedor.PageIndexChanging
+        grdProveedor.PageIndex = e.NewPageIndex
+        bindGrid()
+    End Sub
+End Class

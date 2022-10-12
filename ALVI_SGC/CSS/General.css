@@ -1,0 +1,556 @@
+﻿*
+{
+    margin:0px;
+}
+body{
+    font-family: Arial;
+    font-size:10px;
+    text-decoration: none;
+}
+.Cabecera
+{
+    height:100px;
+    width:100%;
+    float:left;
+    background-color:#ffffff;
+    background-image:url(../IMAGES/bgCabecera.png);
+    background-repeat:repeat-x;
+    background-position:bottom;
+}
+.Cabecera .Logo
+{
+    width:250px;
+    height:100px;
+    float:left;
+}
+.Cabecera .Info
+{
+    width:750px;
+    height:100px;
+    float:left;
+    padding-left:50px;
+}
+.Cabecera .Info .Linea1 
+{
+    width:700px;
+    height:22px;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    margin-top:2px;
+    border: solid 1px Black;
+    vertical-align:middle;
+}
+.Cabecera .Info .Linea1 ul li
+{
+    float:left;
+    padding-left:5px;
+    padding-right:5px;
+    list-style:none;
+}
+.Cabecera .Info .Linea2 
+{
+    width:700px;
+    height:25px;
+    float:right;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    margin-top:2px;
+}
+.Cabecera .Info .Linea3 
+{
+    width:700px;
+    height:25px;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    margin-top:2px;
+    border: solid 1px Black;
+}
+.Cabecera a{ color:#333333; text-decoration:none; }
+.Cabecera a:hover{ color:#ffffff; text-decoration:none;}
+
+.Principal
+{
+    width:100%;
+    height:100%;
+    min-height:600px;
+    float:left;
+    background-color:#ffffff;
+}
+.Principal #Menu
+{
+    width:130px;
+    min-height:600px;    
+    float:left;
+    margin: 2px 2px 2px 2px;
+    position:absolute;
+    top:2px;
+    left:0px;
+    border-right: solid 1px #e8e8e8;
+}
+
+.Boton
+{
+    cursor:pointer;
+}
+.NoVisible
+{
+    visibility:hidden;
+    display:none;
+}
+#barraBottom{
+    background-color: #484848;
+    color:#CCCCCC;
+    height:40px;
+    width:100%;
+}
+.Pie
+{
+    width:100%;
+    height:30px;
+    padding: 5px 5px 5px 5px;
+    background-color: #999999;
+}
+#divCuerpo
+{
+    width:auto;   
+    float:left;
+    height:100%; min-height:600px;
+    padding: 5px 20px 5px 20px;
+    position:absolute;
+    top:100px;
+    left:130px;
+    background-image: url('../images/AllFashion_logo2.gif');
+    background-position:right top;
+    background-repeat: no-repeat;
+}
+#divCuerpo #divHeader
+{
+    font-size:18px;
+    font-weight:bold;
+}    
+#divCuerpo #divOpciones
+{
+    border-bottom: solid 1px #999999;
+    border-top: solid 1px #999999;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+} 
+#divCuerpo .Opciones
+{
+    border-bottom: solid 1px #999999;
+    border-top: solid 1px #999999;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+}
+.Principal .Boton
+{
+    background-color: #e8e8e8;
+    color: #000000;
+}
+.Principal .Boton:hover
+{
+    background-color: #e8e8e8;
+    color: Red;
+}
+.Principal .TituloPrincipal
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-image: url(../IMAGES/right.gif);
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 100%;
+}
+.Principal .TituloPrincipal.SubTitulo
+{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-image: url(../IMAGES/right.gif);
+    background-repeat: no-repeat;
+    background-position: center left;
+    font-weight: normal;
+    color: Maroon;
+}
+.Principal .CajaTexto
+{
+    font-size: 10px;
+    width: 100px;
+}
+/*FORMULARIO****************/
+
+.Principal .Formulario
+{
+    padding-top: 15px;
+    background-color: #ffffff;
+    background-image: url(../IMAGES/bgTitleFormulario.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    border: solid 1px #333333;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.Principal .Formulario .Titulo
+{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.Principal .Formulario .Opciones
+{
+    height: 30px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Principal .Busquea
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+.Principal .Boton
+{
+    background-color: #e8e8e8;
+    color: #000000;
+}
+.Principal .Boton:hover
+{
+    background-color: #e8e8e8;
+    color: Red;
+}
+
+
+#divCuerpo .GridHeader
+{
+    height:30px;
+    text-transform:uppercase;
+    background-color: #C0C0C0;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #333333;
+    margin-bottom: 2px;
+ }
+ #divCuerpo .GridHeader th{
+    padding: 0px 4px 0px 4px;
+ }
+#divCuerpo .GridHeader .Soles
+{
+    color:Blue;
+}
+#divCuerpo .GridItem
+{
+   background-color: #FFFFFF;
+}
+#divCuerpo .GridItem .Soles{ color:Blue; text-align:right; }
+#divCuerpo .GridAltItem
+{
+    background-color: #CCCCCC;
+}
+#divCuerpo .GridAltItem .Soles{ color:Blue; text-align:right; }
+#divCuerpo .GridItem .Numero{ text-align:right; }
+#divCuerpo .GridAltItem .Numero{ text-align:right; }
+
+#divCuerpo .GridFooter
+{
+    height:30px;
+    text-transform:uppercase;
+    background-color: #C0C0C0;
+    font-weight: bold;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #333333;
+    margin-top: 2px;
+}
+#divCuerpo .Titulo14
+{
+    font-size: 14px;
+    font-weight: Bold;
+    color: #333333;
+    text-decoration: underline;
+}
+#divCuerpo .Titulo12
+{
+    font-size: 12px;
+    font-weight: Bold;
+    color: #333333;
+    text-decoration: none;
+}
+#divCuerpo .Titulo12Rojo
+{
+    font-size: 12px;
+    font-weight: Bold;
+    color: #ff0000;
+    text-decoration: none;
+}
+#divCuerpo .Texto12
+{
+    font-size: 12px;
+    font-weight: Bold;
+    color: #333333;
+    text-decoration: none;
+    width:100%;
+}
+#divCuerpo .TextoNumero
+{
+    font-size: 12px;
+    font-weight: Bold;
+    color: #333333;
+    text-decoration: none;
+    width:100%;
+    text-align:right;
+}
+#divCuerpo .TextoDisable
+{
+    font-size: 12px;
+    font-weight: Bold;
+    color: #333333;
+    text-decoration: none;
+    background-color: #999999;
+}
+#divCuerpo .TextoLogin
+{
+    font-size: 12px;
+    font-weight: Bold;
+    color: #333333;
+    text-decoration: none;
+    width:100%;
+}
+.Login
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:33px;
+    left:0px;
+    vertical-align:middle;
+    text-align:center;
+    background-image: url(../../Images/bgLogin.gif);
+    background-repeat:no-repeat; 
+    z-index:999;
+}
+#divCuerpo .Boton
+{
+    padding: 2px 5px 2px 5px;
+    margin:2px 5px 2px 5px;
+}
+#divCuerpo .Formulario
+{
+    min-width:500px;
+    width:auto;
+    position:absolute;
+    top:50px;
+    left:50px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px; 
+    float:left;
+    z-index:800;
+    border: solid 2px #666666;
+    padding-top:15px;
+    background-color:#ffffff;
+    background-image:url(../IMAGES/bgTitleFormulario.png);
+    background-repeat:repeat-x;
+    background-position:top;
+    
+}
+#divCuerpo .Formulario #divTitulo
+{
+    height: 35px;
+    width:100%;
+    padding: 2px 5px 2px 5px;
+    color:#000000;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+#divCuerpo .Formulario #divFooter
+{
+    height: 30px;
+    width:100%;
+    border-top:solid 1px #cccccc;
+    padding: 2px 2px 2px 2px;
+    color:#000000;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+#divCuerpo .Formulario .Footer
+{
+    height: 30px;
+    width:100%;
+    border-top:solid 1px #cccccc;
+    padding: 2px 2px 2px 2px;
+    color:#000000;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+#divGrilla{
+    width:98%;
+    height:300px;
+    overflow:auto;  
+    margin:20px 0px 20px 0px;
+}
+#divImprimir
+{
+    background-image:url(../images/lgoCliente.gif); 
+    background-repeat:no-repeat;
+    background-position:right top;
+    float:left;
+    border: solid 1px #000000;
+    display:block;
+}
+#divImprimir .GridHeader
+{
+    font-size: 10px;
+    font-weight: Bold;
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+    border: solid 1px #333333;
+}
+#divImprimir td
+{
+    font-size:10px;
+}
+#divImprimir .Titulo
+{
+    font-size:20px;
+    font-weight:bold;
+}
+#divImprimir .GridHeader .Soles
+{
+    color:Blue;
+}
+#divImprimir .GridItem
+{
+    background-color: #FFFFFF;
+    font-size: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+#divImprimir .GridItem .Soles
+{
+    text-align:right;
+}
+#divImprimir .GridAltItem
+{
+    background-color: #CCCCCC;
+    font-size: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+#divImprimir .GridAltItem .Soles
+{
+    text-align:right;
+}
+#divImprimir .GridFooter
+{
+    font-size: 10px;
+    font-weight: Bold;
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+    border: solid 1px #333333;
+}
+.clsControlBusqueda 
+{
+    border: solid 1px #333333;
+    padding: 2px 2px 2px 5px;
+}
+.clsControlBusqueda .Lista
+{
+    width:auto;
+    min-width: 300px;
+    height: 150px;
+    overflow: auto;
+    position: relative;
+    z-index:801;
+    border: solid 1px #336699;
+}
+.clsControlBusqueda .Lista .Item
+{
+    font-size: 9px;
+    text-decoration: none;
+    background-color:#cccccc;
+}
+.clsControlBusqueda .Lista .Alterno
+{
+    font-size: 9px;
+    text-decoration: none;
+    background-color:#ffffff;
+}
+.clsControlBusqueda .Datos
+{
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+    position: relative;
+}
+.clsControlBusqueda a
+{
+    text-decoration: none;
+    font-size: 10px;
+    color:#000000;
+    display:block;
+}
+.clsControlBusqueda a:hover
+{
+    text-decoration: none;
+    font-size: 10px;
+    color:#ffffff;
+    display:block;
+    background-color:#336699;
+}
+.clsControlBusqueda .Titulo
+{
+    width:97%;
+    font-size:10px;
+    font-weight:bold;
+    border-bottom:solid 1px #333333;
+}
+.clsControlBusqueda .Datos
+{
+    width:300px;
+    height:150px;
+    overflow:auto;
+    position:relative;
+}
+.clsControlBusqueda .Texto
+{
+    width:285px;
+    font-size:10px;
+}
+.clsControlBusqueda .Codigo
+{
+    width:285px;
+    font-size:10px;
+}
+.clsControlBusqueda .Boton
+{
+    margin:2px 4px 2px 4px;
+}

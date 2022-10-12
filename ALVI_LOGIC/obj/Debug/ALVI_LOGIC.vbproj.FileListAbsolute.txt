@@ -1,0 +1,145 @@
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbprojResolveAssemblyReference.cache
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+D:\ALVI_ALJUZA\ALVI_ALJUZA 15-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbprojResolveAssemblyReference.cache
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 23-12-2013\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbprojResolveAssemblyReference.cache
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+E:\Alta Vision\Proyecto Actual\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ResolveAssemblyReference.cache
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\GenerateResource.read.1.tlog
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\GenerateResource.write.1.tlog
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ResolveAssemblyReference.cache
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\GenerateResource.read.1.tlog
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\GenerateResource.write.1.tlog
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.pdb
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\ALVI_LOGIC.xml
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.pdb
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\bin\Debug\AccesoDatos.xml
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ResolveAssemblyReference.cache
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.Resources.resources
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\GenerateResource.read.1.tlog
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\GenerateResource.write.1.tlog
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.xml
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_LOGIC\obj\Debug\ALVI_LOGIC.pdb

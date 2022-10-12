@@ -1,0 +1,66 @@
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\AccesoDatos\bin\AccesoDatos.dll.config
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\AccesoDatos\bin\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\AccesoDatos\bin\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\AccesoDatos\bin\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\AccesoDatos\obj\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\AccesoDatos\obj\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\AccesoDatos\obj\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\AccesoDatos\bin\AccesoDatos.dll.config
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\AccesoDatos\bin\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\AccesoDatos\bin\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\AccesoDatos\bin\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\AccesoDatos\obj\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\AccesoDatos\obj\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\AccesoDatos\obj\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll.config
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll.config
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.pdb
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll.config
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.pdb
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.xml
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.xml
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll.config
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.pdb
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll.config
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.pdb
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.xml
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.xml
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.pdb
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll.config
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.pdb
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.xml
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.xml
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.pdb
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll.config
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.pdb
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\bin\AccesoDatos.xml
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.xml
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\AccesoDatos\obj\Debug\AccesoDatos.pdb

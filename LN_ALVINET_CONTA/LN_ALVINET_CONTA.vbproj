@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{A199392F-BAC9-43F8-887E-FFEF3A903CFB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LN_ALVINET_CONTA</RootNamespace>
+    <AssemblyName>LN_ALVINET_CONTA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LN_ALVINET_CONTA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LN_ALVINET_CONTA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.vb" />
+    <Compile Include="CONFIG\LN_Articulo.vb" />
+    <Compile Include="CONFIG\LN_Conciliacion.vb" />
+    <Compile Include="CONFIG\LN_Contabilidad.vb" />
+    <Compile Include="CONFIG\LN_CuentaEntidad.vb" />
+    <Compile Include="CONFIG\LN_Ejercicio.vb" />
+    <Compile Include="CONFIG\LN_EjercicioEmpresa.vb" />
+    <Compile Include="CONFIG\LN_EjercicioMes.vb" />
+    <Compile Include="CONFIG\LN_EntidadFinanciera.vb" />
+    <Compile Include="CONFIG\LN_Libro.vb" />
+    <Compile Include="CONFIG\LN_MovimientoBancario.vb" />
+    <Compile Include="CONFIG\LN_MovimientoCaja.vb" />
+    <Compile Include="CONFIG\LN_NivelPlan.vb" />
+    <Compile Include="CONFIG\LN_Operacion.vb" />
+    <Compile Include="CONFIG\LN_OperacionCuenta.vb" />
+    <Compile Include="CONFIG\LN_PlanContable.vb" />
+    <Compile Include="CONFIG\LN_PlanCuenta.vb" />
+    <Compile Include="CONFIG\LN_Proveedor.vb" />
+    <Compile Include="CONFIG\LN_SubOperacion.vb" />
+    <Compile Include="CONFIG\LN_TipoAnalisis.vb" />
+    <Compile Include="CONFIG\LN_TipoCuenta.vb" />
+    <Compile Include="CONFIG\LN_UnidadMedida.vb" />
+    <Compile Include="CONFIG\LN_Usuario.vb" />
+    <Compile Include="CONFIG\LN_UsuarioEmpresa.vb" />
+    <Compile Include="GENERAL\LN_BienServicio.vb" />
+    <Compile Include="GENERAL\LN_CajaBanco.vb" />
+    <Compile Include="GENERAL\LN_Comprobante.vb" />
+    <Compile Include="GENERAL\LN_Departamento.vb" />
+    <Compile Include="GENERAL\LN_Detalle.vb" />
+    <Compile Include="GENERAL\LN_Empleado.vb" />
+    <Compile Include="CONFIG\LN_FormaPago.vb" />
+    <Compile Include="GENERAL\LN_TipoDocumento.vb" />
+    <Compile Include="GENERAL\LN_CentroCosto.vb" />
+    <Compile Include="GENERAL\LN_Cliente.vb" />
+    <Compile Include="GENERAL\LN_Empresa.vb" />
+    <Compile Include="GENERAL\LN_MedioPago.vb" />
+    <Compile Include="GENERAL\LN_Moneda.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OPERACION\LN_Detraccion.vb" />
+    <Compile Include="OPERACION\LN_OperacionVoucher.vb" />
+    <Compile Include="OPERACION\LN_OrdenServicio.vb" />
+    <Compile Include="OPERACION\LN_TipoCambio.vb" />
+    <Compile Include="OPERACION\LN_Voucher.vb" />
+    <Compile Include="OPERACION\LN_VoucherCuenta.vb" />
+    <Compile Include="REPORTE\LN_LibroVenta.vb" />
+    <Compile Include="REPORTE\LN_CajaBanco.vb" />
+    <Compile Include="REPORTE\LN_LibroCompra.vb" />
+    <Compile Include="REPORTE\LN_Nivel.vb" />
+    <Compile Include="REPORTE\LN_Reportes.vb" />
+    <Compile Include="VENTAS\LN_AtributoMotivo.vb" />
+    <Compile Include="VENTAS\LN_Impuesto.vb" />
+    <Compile Include="VENTAS\LN_Motivo.vb" />
+    <Compile Include="VENTAS\LN_Pedido.vb" />
+    <Compile Include="VENTAS\LN_PedidoValor.vb" />
+    <Compile Include="VENTAS\LN_UnidadMedida.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AD_ALVINET_CONTA\AD_ALVINET_CONTA.vbproj">
+      <Project>{5A5C4643-D70D-476B-9F93-641A915575DA}</Project>
+      <Name>AD_ALVINET_CONTA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EN_ALVINET_CONTA\EN_ALVINET_CONTA.vbproj">
+      <Project>{397D3200-B130-42D6-9AD1-9A28FEDDCE45}</Project>
+      <Name>EN_ALVINET_CONTA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

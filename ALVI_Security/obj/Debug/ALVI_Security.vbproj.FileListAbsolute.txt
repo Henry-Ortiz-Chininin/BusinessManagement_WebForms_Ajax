@@ -1,0 +1,120 @@
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\bin\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\bin\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\bin\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\bin\Debug\Shadow.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\obj\Debug\ALVI_Security.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\obj\Debug\ALVI_Security.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\obj\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\obj\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 07-01-2014\ALVI_Security\obj\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\bin\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\bin\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\bin\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\bin\Debug\Shadow.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\obj\Debug\ALVI_Security.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\obj\Debug\ALVI_Security.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\obj\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\obj\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 20-01-2014\ALVI_Security\obj\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\Shadow.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 22-01-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\Shadow.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_ALJUZA 08-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.pdb
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.pdb
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.xml
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\Shadow.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.pdb
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.xml
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.vbprojResolveAssemblyReference.cache
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.vbproj.GenerateResource.Cache
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.dll
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.xml
+D:\AVC\Backup Proyecto\Aljuza\ALVI_ALJUZA 24-02-2014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.pdb
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\Shadow.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.pdb
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.xml
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.vbprojResolveAssemblyReference.cache
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.vbproj.GenerateResource.Cache
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.dll
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.xml
+D:\AVC\Proyectos Actuales\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.pdb
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.pdb
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.xml
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\Shadow.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.pdb
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.xml
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ResolveAssemblyReference.cache
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\GenerateResource.read.1.tlog
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\GenerateResource.write.1.tlog
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.dll
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.xml
+D:\backup\ALVI_VENTAS_ALJUZA_31072014\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.pdb
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.pdb
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.xml
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\Shadow.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.pdb
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.xml
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ResolveAssemblyReference.cache
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\GenerateResource.read.1.tlog
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\GenerateResource.write.1.tlog
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.dll
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.xml
+G:\Sistema\ALVI_ALJUZA\Backup\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.pdb
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.pdb
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\ALVI_Security.xml
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\Shadow.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.pdb
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\bin\Debug\AccesoDatos.xml
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ResolveAssemblyReference.cache
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.Resources.resources
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\GenerateResource.read.1.tlog
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\GenerateResource.write.1.tlog
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.dll
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.xml
+G:\Sistema\ALVI_ALJUZA\Proyecto\ALVI_VENTAS_ALJUZA\ALVI_ALJUZA\ALVI_Security\obj\Debug\ALVI_Security.pdb
